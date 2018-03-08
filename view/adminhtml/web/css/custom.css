@@ -19,9 +19,58 @@ footer.login-footer{
     color: #fff;
 }
 
+/*Content*/
+a.logo{
+    background-color: #fff;
+}
+
+/*button primary*/
 .action-primary {
     background-color: #8860D0 !important;
     border-color: #8860D0 !important;
     color: #fff !important;
     text-shadow: none !important;
+}
+
+/*button hover, active, focus*/
+.action-primary:hover,
+.action-primary:active,
+.action-primary:focus{
+    background-color: #5680E9 !important;
+    border-color: #5680E9 !important;
+}
+
+/*font primary color*/
+.page-layout-admin-login .admin__legend,
+.dashboard-totals-item:first-child .price,
+.dashboard-item-primary:first-child .dashboard-sales-value{
+    color: #8860D0 !important;
+}
+
+.menu-wrapper:before,
+.data-grid th,
+.admin__menu [class*='level-']:not(.level-0) a:hover {
+    background-color: #5680E9 !important;
+}
+
+.admin__menu .level-0>a{
+    color: #fff !important;
+}
+
+.admin__menu .level-0:hover>a,
+.admin__menu .level-0>.submenu,
+.admin__menu .level-0._active>a{
+    background-color: #5AB9EA !important;
+}
+
+.admin__menu .level-0>.submenu{
+    box-shadow: none !important;
+}
+
+.admin__menu .submenu .parent .submenu-group-title{
+    color: #fff !important;
+}
+
+.admin__menu .action-close:before{
+    color: #fff;
 }
