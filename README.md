@@ -1,2 +1,2 @@
-# magento2-admintheme
-Magento 2: admin theme
+# magento2-admin-theme
+change theme admin magento

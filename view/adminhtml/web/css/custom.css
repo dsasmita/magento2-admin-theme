@@ -1,0 +1,27 @@
+/*Login layout*/
+.page-layout-admin-login {
+    background: #5680E9 !important;
+}
+
+.page-layout-admin-login .page-wrapper{
+    box-shadow: none !important;
+}
+
+.page-layout-admin-login .admin__legend{
+    color: #5680E9 !important;
+}
+
+a.action-forgotpassword{
+    color: #eb5202 !important;
+}
+
+footer.login-footer{
+    color: #fff;
+}
+
+.action-primary {
+    background-color: #8860D0 !important;
+    border-color: #8860D0 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
